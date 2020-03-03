@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.API\\SuperDigital.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.API\\SuperDigital.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.API\\SuperDigital.API.csproj",
+        "projectName": "SuperDigital.API",
+        "projectPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.API\\SuperDigital.API.csproj",
+        "packagesPath": "C:\\Users\\marcos.mesquita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marcos.mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://uhcrepositorio.amil.com.br:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\SuperDigital.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\SuperDigital.ApplicationCore.csproj"
+              },
+              "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.Infrastructure\\SuperDigital.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.Infrastructure\\SuperDigital.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\SuperDigital.ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\SuperDigital.ApplicationCore.csproj",
+        "projectName": "SuperDigital.ApplicationCore",
+        "projectPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\SuperDigital.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\marcos.mesquita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marcos.mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://uhcrepositorio.amil.com.br:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.Infrastructure\\SuperDigital.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.Infrastructure\\SuperDigital.Infrastructure.csproj",
+        "projectName": "SuperDigital.Infrastructure",
+        "projectPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.Infrastructure\\SuperDigital.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\marcos.mesquita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marcos.mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://uhcrepositorio.amil.com.br:8081/repository/nuget-group/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\SuperDigital.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\marcos.mesquita\\Desktop\\git\\super-digital\\src\\SuperDigital.ApplicationCore\\SuperDigital.ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
